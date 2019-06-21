@@ -1,10 +1,9 @@
-package cn.edu.ecut;
+package cn.edu.ecut.JDBCTools;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 public class JDBCTools {
     private static String driver;
@@ -24,6 +23,7 @@ public class JDBCTools {
         url = properties.getProperty("url");
         user = properties.getProperty("user");
         password = properties.getProperty("password");
+        //System.out.println(driver);
 
 
 
